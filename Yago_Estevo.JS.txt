@@ -1,0 +1,13 @@
+let frutas = ["maçã", "banana", "uva"];
+console.log(frutas);
+console.log(frutas[0]);
+frutas.push("laranja");
+console.log(frutas);
+
+let amigos = ["Ana", "Bruno", "Carlo", "Duda", "Eduardo"];
+console.log(amigos.length);
+
+let cores = ["vermelho", "azul", "verde", "amarelo"];
+for (let i = 0; i < cores.length; i++) {
+    console.log(cores[i]);
+}
